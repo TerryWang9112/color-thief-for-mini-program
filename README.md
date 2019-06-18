@@ -13,7 +13,13 @@ Color thief 小程序版本，可以用来提取图片/Canvas主色/配色
 [小程序代码片段](https://developers.weixin.qq.com/s/g6vE6dmY7Z9b) | [MP Snippet](https://developers.weixin.qq.com/s/g6vE6dmY7Z9b)
 
 ## 用法 - How to use
+
+下载、拷贝 [colorThief.js](https://github.com/TerryWang9112/color-thief-for-mini-program/blob/master/utils/colorThief.js) 到你的项目中（正式使用前记得压缩代码或使用小程序自带的代码压缩功能），并引用它
+
 ```javascript
+import ColorThief from '../utils/colorThief.js'
+
+
 ColorThief.getPaletteWithRaw({
   width: canvasWidth,
   height: canvasHeight,
