@@ -1,6 +1,14 @@
 # Color Thief For Mini Program
 
-Color thief 小程序版本
+Color thief 小程序版本，可以用来提取图片/Canvas主色/配色
+灵感和算法来自于：
+- [lokesh/color-thief](https://github.com/lokesh/color-thief)
+- [javanli/mini-color-card](https://github.com/javanli/mini-color-card)
+
+## 使用场景：
+1. 颜色提取
+2. 向 Canvas 中添加文字前可以判断出合适的文字颜色，从而避免添加的文字不可见、不容易分辨
+3. Canvas 褪色滤镜 - 保留主色，其余颜色显示为黑白
 
 [小程序代码片段](https://developers.weixin.qq.com/s/g6vE6dmY7Z9b) | [MP Snippet](https://developers.weixin.qq.com/s/g6vE6dmY7Z9b)
 
