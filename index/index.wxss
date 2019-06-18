@@ -1,0 +1,46 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.img-canvas {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-top: 3vh;
+}
+
+.center {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  margin-top: 5vh;
+}
+
+.text-ss {
+  font-size: 10px;
+  color: #aaa;
+}
+
+.main-color {
+  margin-top: 3vh;
+  width: 5vh;
+  height: 5vh;
+}
+.img-btn {
+  color: white;
+  background-color: #50b674;
+  z-index: 10;
+  position: fixed;
+  bottom: 4vh;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}

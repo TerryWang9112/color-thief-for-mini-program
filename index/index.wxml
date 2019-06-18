@@ -1,0 +1,11 @@
+<view class="preview">
+  
+  <canvas canvas-id="img-canvas" class="img-canvas" style="width:{{canvasWidth}}px;height:{{canvasHeight}}px;" bindtap="tapcanvas"></canvas>
+
+  <view class="center container">
+    <view class="paragraph text-ss">主色(Dominant Color): {{dominantColor}}</view>
+  </view>
+
+  <view class="main-color" style="background-color:{{dominantColor}}"></view>
+</view>
+<button class="img-btn" bindtap="chooseImage">选择图片</button>
